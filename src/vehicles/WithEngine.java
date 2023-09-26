@@ -1,2 +1,6 @@
-package vehicles;public interface WithEngine {
+package vehicles;
+
+public interface WithEngine {
+    void startEngine();
+    void stopEngine();
 }
